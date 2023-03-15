@@ -105,8 +105,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    
   }
-  
+ 
   .hero-text {
     text-align: left;
     position: absolute;
@@ -114,6 +115,8 @@ body {
     left: 40%;
     transform: translate(-50%, -50%);
     color: white;
+
+    left: 700px;
   }
   .block {
     display: block;
@@ -131,4 +134,8 @@ body {
     background-color: #b99aff;
     color: black;
   }
- 
+
+ .topnav {
+  display: flexbox;
+  justify-content: center;
+ }

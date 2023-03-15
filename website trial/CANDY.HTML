@@ -7,11 +7,13 @@
     <title>Candy Cake</title>
     <link rel="icon" href="Candy Cake.jpg" type="image/x-icon">
     <link rel="stylesheet" href="Main.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
 
 </head>
 <body>
     <div class="topnav">
-       
+       <div class="text-center">
         <a <button class="openbtn" onclick="openNav()">☰ </button> </a>  
          
         <a href="#home" class="active">Home</a>
@@ -20,7 +22,7 @@
         <a href="#about">About</a>
         
         <a href="#login">Login</a>
-       
+      </div>
       </div>
 
 <div id="Sidebar" class="sidebar">
@@ -54,6 +56,9 @@ function closeNav() {
   document.getElementById("Sidebar").style.width = "0";
   document.getElementById("main").style.marginLeft= "0";
 }
+
+<button type="button" class="btn btn-primary">primary</button>
+
 </script>
    
 </body>
