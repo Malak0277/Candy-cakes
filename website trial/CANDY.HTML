@@ -1,0 +1,60 @@
+
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Candy Cake</title>
+    <link rel="icon" href="Candy Cake.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="Main.css" type="text/css">
+
+</head>
+<body>
+    <div class="topnav">
+       
+        <a <button class="openbtn" onclick="openNav()">☰ </button> </a>  
+         
+        <a href="#home" class="active">Home</a>
+        
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        
+        <a href="#login">Login</a>
+       
+      </div>
+
+<div id="Sidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <a href="#">Wedding & Engagement</a>
+  <br>
+  <a href="#">Birthday</a>
+  <br>
+  <a href="#">Donuts and cupcakes</a>
+  <br>
+  <a href="#">Eid specials</a>
+ 
+</div>
+<div class="hero-image">
+    <div class="hero-text">
+      <h1 style="font-size:50px">Candy Cake</h1>
+      <p>We're offering custom cakes, Fondant cakes, cupcakes & desserts .. special decoration with a very goo <br> <br> </p> 
+     
+      <button class="block">For Special Order</button>
+  
+    </div>
+ 
+
+<script>
+function openNav() {
+  document.getElementById("Sidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("Sidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
