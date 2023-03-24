@@ -1,0 +1,180 @@
+
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f9eaed;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FF7AB3;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #FF7AB3;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .sidebar a:hover {
+    color: #FFF;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FF7AB3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #f9eaed;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #FF7AB3;
+      width:  "100%";
+    }
+    
+    .topnav a {
+      float: left;
+      color: #FFf;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #f9eaed;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #FF7AB3;
+      color: white;
+    }
+    body, html {
+      height: 100%;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .block {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: #e8deff;
+      color: Black;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+    }
+    
+    .block:hover {
+      background-color: #b99aff;
+      color: black;
+    }
+    .MainText {
+      text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    }
+    .gradient-custom {
+      
+      background: #6a11cb;
+      background-image: url(Login\ Background.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+   
+       }
+       .gradient-custom-4 {
+        
+        background: #6fb5d8;
+        
+       
+        }
+        .block1 {
+          display: block;
+          width: 100%;
+          border: none;
+          background-color: #f9def7;
+          color: Black;
+          padding: 14px 28px;
+          font-size: 16px;
+          cursor: pointer;
+          text-align: center;
+        }
+        .block1:hover {
+          background-color: #dea0c9;
+          color: black;
+        }
+        .block2 {
+          display: block;
+          width: 100%;
+          border: none;
+          background-color: #f9def7;
+          color: Black;
+          padding: 14px 28px;
+          font-size: 16px;
+          cursor: pointer;
+          text-align: center;
+        }
+        .block2:hover {
+          background-color: #dea0c9;
+          color: black;
+        }
+        .gradient-custom {
+          /* fallback for old browsers */
+          background: #6a11cb;
+          
+          /* Chrome 10-25, Safari 5.1-6 */
+          background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+          
+          /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          background: linear-gradient(to right, rgb(193, 143, 247), rgb(223, 108, 202))
+          }
