@@ -179,3 +179,13 @@ body {
        
         background: linear-gradient(to right, rgb(193, 143, 247), rgb(223, 108, 202))
         }
+        /*------------------------------------------------------*/
+
+        .vector {
+          position: relative;
+        }
+        .vector img {
+          position: absolute;
+          right: 10px;
+          top: 10px;
+        }
