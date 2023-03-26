@@ -21,7 +21,7 @@ for (let i = 0; i < list.length; i++) {
     
     const myGrids = [];
     myGrids[i] = document.createElement("div");
-    myGrids[i].className = "col-lg-4 p-1";
+    myGrids[i].className = "col-sm-6 col-lg-4 col-xl-3 col-xxl-2 p-1";
 
     const myCards = [];
     myCards[i] = document.createElement("div");

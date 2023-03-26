@@ -181,12 +181,9 @@ body {
         }
         /*------------------------------------------------------*/
 
-        .vector {
-          position: relative;
+        .social-media {
+          width : 25px;
+          height: 25px;
         }
-        .vector img {
-          position: absolute;
-          right: 10px;
-          top: 10px;
-        }
+        
         
