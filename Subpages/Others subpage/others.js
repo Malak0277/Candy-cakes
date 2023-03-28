@@ -3,20 +3,16 @@ let myRow = document.createElement("div");
 myRow.className = "row";
 
 const list = [
-    { code: '#M01', source: "minis_images/M01.jpg" },
-    { code: '#M02', source: "minis_images/M02.jpg" },
-    { code: '#M03', source: "minis_images/M03.jpg" },
-    { code: '#M04', source: "minis_images/M04.jpg" },
-    { code: '#M05', source: "minis_images/M05.jpg" },
-    { code: '#M06', source: "minis_images/M06.jpg" },
-    { code: '#M07', source: "minis_images/M07.jpg" },
-    { code: '#M08', source: "minis_images/M08.jpg" },
-    { code: '#M09', source: "minis_images/M09.jpg" },
-    { code: '#M10', source: "minis_images/M10.jpg" },
-    { code: '#M11', source: "minis_images/M11.jpg" },
-    { code: '#M12', source: "minis_images/M12.jpg" },
-    { code: '#M13', source: "minis_images/M13.jpg" },
-    { code: '#M14', source: "minis_images/M14.jpg" }
+    { code: '#O01', source: "others_images/O01.jpg" },
+    { code: '#O02', source: "others_images/O02.jpg" },
+    { code: '#O03', source: "others_images/O03.jpg" },
+    { code: '#O04', source: "others_images/O04.jpg" },
+    { code: '#O05', source: "others_images/O05.jpg" },
+    { code: '#O06', source: "others_images/O06.jpg" },
+    { code: '#O07', source: "others_images/O07.jpg" },
+    { code: '#O08', source: "others_images/O08.jpg" },
+    { code: '#O09', source: "others_images/O09.jpg" },
+    { code: '#O10', source: "others_images/O10.jpg" }
   ];
 
 
