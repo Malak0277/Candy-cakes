@@ -2,20 +2,19 @@ let myContainer = document.querySelector(".container");
 let myRow = document.createElement("div");
 myRow.className = "row";
 
-
 const list = [
-    { code: '#E01', source: "eid_images/E01.jpeg" },
-    { code: '#E02', source: "eid_images/E02.jpeg" },
-    { code: '#E03', source: "eid_images/E03.jpeg" },
-    { code: '#E04', source: "eid_images/E04.jpeg" },
-    { code: '#E05', source: "eid_images/E05.jpeg" },
-    { code: '#E06', source: "eid_images/E06.jpeg" },
-    { code: '#E07', source: "eid_images/E07.jpeg" },
-    { code: '#E08', source: "eid_images/E08.jpeg" },
-    { code: '#E09', source: "eid_images/E09.jpeg" },
-    { code: '#E10', source: "eid_images/E10.jpeg" },
-    { code: '#E11', source: "eid_images/E11.jpeg" }
-]
+    { code: '#O01', source: "others_images/O01.jpg" },
+    { code: '#O02', source: "others_images/O02.jpg" },
+    { code: '#O03', source: "others_images/O03.jpg" },
+    { code: '#O04', source: "others_images/O04.jpg" },
+    { code: '#O05', source: "others_images/O05.jpg" },
+    { code: '#O06', source: "others_images/O06.jpg" },
+    { code: '#O07', source: "others_images/O07.jpg" },
+    { code: '#O08', source: "others_images/O08.jpg" },
+    { code: '#O09', source: "others_images/O09.jpg" },
+    { code: '#O10', source: "others_images/O10.jpg" }
+  ];
+
 
 for (let i = 0; i < list.length; i++) {
     

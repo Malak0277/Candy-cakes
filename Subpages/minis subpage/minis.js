@@ -2,20 +2,23 @@ let myContainer = document.querySelector(".container");
 let myRow = document.createElement("div");
 myRow.className = "row";
 
-
 const list = [
-    { code: '#E01', source: "eid_images/E01.jpeg" },
-    { code: '#E02', source: "eid_images/E02.jpeg" },
-    { code: '#E03', source: "eid_images/E03.jpeg" },
-    { code: '#E04', source: "eid_images/E04.jpeg" },
-    { code: '#E05', source: "eid_images/E05.jpeg" },
-    { code: '#E06', source: "eid_images/E06.jpeg" },
-    { code: '#E07', source: "eid_images/E07.jpeg" },
-    { code: '#E08', source: "eid_images/E08.jpeg" },
-    { code: '#E09', source: "eid_images/E09.jpeg" },
-    { code: '#E10', source: "eid_images/E10.jpeg" },
-    { code: '#E11', source: "eid_images/E11.jpeg" }
-]
+    { code: '#M01', source: "minis_images/M01.jpg" },
+    { code: '#M02', source: "minis_images/M02.jpg" },
+    { code: '#M03', source: "minis_images/M03.jpg" },
+    { code: '#M04', source: "minis_images/M04.jpg" },
+    { code: '#M05', source: "minis_images/M05.jpg" },
+    { code: '#M06', source: "minis_images/M06.jpg" },
+    { code: '#M07', source: "minis_images/M07.jpg" },
+    { code: '#M08', source: "minis_images/M08.jpg" },
+    { code: '#M09', source: "minis_images/M09.jpg" },
+    { code: '#M10', source: "minis_images/M10.jpg" },
+    { code: '#M11', source: "minis_images/M11.jpg" },
+    { code: '#M12', source: "minis_images/M12.jpg" },
+    { code: '#M13', source: "minis_images/M13.jpg" },
+    { code: '#M14', source: "minis_images/M14.jpg" }
+  ];
+
 
 for (let i = 0; i < list.length; i++) {
     
