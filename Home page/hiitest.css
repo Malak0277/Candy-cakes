@@ -130,3 +130,18 @@ body {
           /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
           background: linear-gradient(to right, rgb(193, 143, 247), rgb(223, 108, 202))
           }
+
+          .title {
+            font-family: 'Great Vibes', cursive;
+            font-size:  80px;
+          }
+          .top-nav-container{
+            padding: 0 20px;
+          }
+          .MainText {
+            left: 350px;
+          }
+          .MainText p {
+            padding: 0 50px 0 30px;
+          }
+          

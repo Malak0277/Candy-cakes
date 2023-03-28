@@ -12,9 +12,10 @@ const list = [
     { code: '#E06', source: "eid_images/E06.jpeg" },
     { code: '#E07', source: "eid_images/E07.jpeg" },
     { code: '#E08', source: "eid_images/E08.jpeg" },
-    { code: '#E09', source: "eid_images/E09.jpeg" }
-  ];
-
+    { code: '#E09', source: "eid_images/E09.jpeg" },
+    { code: '#E10', source: "eid_images/E10.jpeg" },
+    { code: '#E11', source: "eid_images/E11.jpeg" }
+]
 
 for (let i = 0; i < list.length; i++) {
     
