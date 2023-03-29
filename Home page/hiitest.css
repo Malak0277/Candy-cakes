@@ -144,4 +144,10 @@ body {
           .MainText p {
             padding: 0 50px 0 30px;
           }
-          
+          .dropdown-menu a:hover {
+              background-color: #f9eaed;
+              color: black;
+          }
+          .dropdown-menu {
+            background-color: #ff379bbd;
+          }
