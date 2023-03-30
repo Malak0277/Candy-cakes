@@ -133,7 +133,7 @@ body {
 
           .title {
             font-family: 'Great Vibes', cursive;
-            font-size:  80px;
+            font-size:  70px;
           }
           .top-nav-container{
             padding: 0 20px;
@@ -151,6 +151,7 @@ body {
           .dropdown-menu {
             background-color: #ff379bbd;
           }
+<<<<<<< HEAD
 
           .carousel .carousel-item {
             height: 448px;
@@ -164,4 +165,9 @@ body {
               left: 0;
               min-height: 448px;
               min-width: 358.4px;
+=======
+          .card-body{
+            width: fit-content;
+    
+>>>>>>> 3e86d17f5bfb61df84946e9e7e2dd0b3caa0fae4
           }
