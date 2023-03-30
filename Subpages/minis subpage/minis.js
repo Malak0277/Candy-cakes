@@ -46,7 +46,7 @@ for (let i = 0; i < list.length; i++) {
     const myOrderButtons = [];
     myOrderButtons[i] = document.createElement("a");
     myOrderButtons[i].className = "btn btn-warning";
-    myOrderButtons[i].href="#";
+    myOrderButtons[i].href="../../Home page/Order Now.html";
     const myOrderNowTexts = [];
     myOrderNowTexts[i] = document.createTextNode("Order Now"); 
 
