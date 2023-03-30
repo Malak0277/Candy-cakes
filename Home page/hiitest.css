@@ -133,7 +133,7 @@ body {
 
           .title {
             font-family: 'Great Vibes', cursive;
-            font-size:  80px;
+            font-size:  70px;
           }
           .top-nav-container{
             padding: 0 20px;
@@ -150,4 +150,8 @@ body {
           }
           .dropdown-menu {
             background-color: #ff379bbd;
+          }
+          .card-body{
+            width: fit-content;
+    
           }
