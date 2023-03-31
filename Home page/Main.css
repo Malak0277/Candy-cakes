@@ -192,3 +192,13 @@ body {
           color: #dea0c9;
           background-color: #dea0c9;
         }
+
+       
+        
+        my-input .error {
+          border-color: #ff3860;
+          font-size: 9px;
+          height: 13px;
+        }
+
+        
