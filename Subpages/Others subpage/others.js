@@ -7,12 +7,7 @@ const list = [
     { code: '#O02', source: "others_images/O02.jpg" },
     { code: '#O03', source: "others_images/O03.jpg" },
     { code: '#O04', source: "others_images/O04.jpg" },
-    { code: '#O05', source: "others_images/O05.jpg" },
-    { code: '#O06', source: "others_images/O06.jpg" },
-    { code: '#O07', source: "others_images/O07.jpg" },
-    { code: '#O08', source: "others_images/O08.jpg" },
-    { code: '#O09', source: "others_images/O09.jpg" },
-    { code: '#O10', source: "others_images/O10.jpg" }
+    { code: '#O05', source: "others_images/O05.jpg" }
   ];
 
 
