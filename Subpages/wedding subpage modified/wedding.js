@@ -72,7 +72,8 @@ for (let i = 0; i < list.length; i++) {
     cakeIds[i] = document.createTextNode(list[i].code); 
     myImgs[i].src = list[i].source;    
 
-
+    
+    
 
     document.body.appendChild(myContainer);
     myContainer.appendChild(myRow);
