@@ -111,6 +111,8 @@ body {
     font-size: 16px;
     cursor: pointer;
     text-align: center;
+   
+    
   }
   
   .block:hover {
@@ -177,7 +179,7 @@ body {
         background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
         
        
-        background: linear-gradient(to right, rgb(193, 143, 247), rgb(223, 108, 202))
+        background: linear-gradient(to right, rgb(255, 173, 241), rgb(255, 82, 223))
         }
         /*------------------------------------------------------*/
 
@@ -190,3 +192,13 @@ body {
           color: #dea0c9;
           background-color: #dea0c9;
         }
+
+       
+        
+        my-input .error {
+          border-color: #ff3860;
+          font-size: 9px;
+          height: 13px;
+        }
+
+        

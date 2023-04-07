@@ -5,53 +5,38 @@ myRow.className = "row";
 
 
 const list = [
-    { code: '#B01', source: "B01.jpeg" },
-    { code: '#B02', source: "B02.jpeg" },
-    { code: '#B03', source: "B03.jpeg" },
-    { code: '#B04', source: "B04.jpeg" },
-    { code: '#B05', source: "eid_images/E05.jpeg" },
-    { code: '#B06', source: "eid_images/E06.jpeg" },
-    { code: '#B07', source: "eid_images/E07.jpeg" },
-    { code: '#B08', source: "eid_images/E08.jpeg" },
-    { code: '#B10', source: "eid_images/E09.jpeg" },
-    { code: '#B11', source: "eid_images/E09.jpeg" },
-    { code: '#B12', source: "eid_images/E09.jpeg" },
-    { code: '#B13', source: "eid_images/E09.jpeg" },
-    { code: '#B14', source: "eid_images/E09.jpeg" },
-    { code: '#B15', source: "eid_images/E09.jpeg" },
-    { code: '#B16', source: "eid_images/E09.jpeg" },
-    { code: '#B17', source: "eid_images/E09.jpeg" },
-    { code: '#B18', source: "eid_images/E09.jpeg" },
-    { code: '#B19', source: "eid_images/E09.jpeg" },
-    { code: '#B20', source: "eid_images/E09.jpeg" },
-    { code: '#B21', source: "eid_images/E09.jpeg" },
-    { code: '#B22', source: "eid_images/E09.jpeg" },
-    { code: '#B23', source: "eid_images/E09.jpeg" },
-    { code: '#B24', source: "eid_images/E09.jpeg" },
-    { code: '#B25', source: "eid_images/E09.jpeg" },
-    { code: '#B26', source: "eid_images/E09.jpeg" },
-    { code: '#B27', source: "eid_images/E09.jpeg" },
-    { code: '#B28', source: "eid_images/E09.jpeg" },
-    { code: '#B29', source: "eid_images/E09.jpeg" },
-    { code: '#B30', source: "eid_images/E09.jpeg" },
-    { code: '#B31', source: "eid_images/E09.jpeg" },
-    { code: '#B32', source: "eid_images/E09.jpeg" },
-    { code: '#B33', source: "eid_images/E09.jpeg" },
-    { code: '#B34', source: "eid_images/E09.jpeg" },
-    { code: '#B35', source: "eid_images/E09.jpeg" },
-    { code: '#B36', source: "eid_images/E09.jpeg" },
-    { code: '#B37', source: "eid_images/E09.jpeg" },
-    { code: '#B38', source: "eid_images/E09.jpeg" },
-    { code: '#B39', source: "eid_images/E09.jpeg" },
-    { code: '#B40', source: "eid_images/E09.jpeg" },
-    { code: '#B41', source: "eid_images/E09.jpeg" },
-    { code: '#B42', source: "eid_images/E09.jpeg" },
-    { code: '#B43', source: "eid_images/E09.jpeg" },
-    { code: '#B44', source: "eid_images/E09.jpeg" }, 
-    { code: '#B45', source: "eid_images/E09.jpeg" },
-    { code: '#B46', source: "eid_images/E09.jpeg" },
-   
-
+    { code: '#B01', source: "images/B01.jpg" },
+    { code: '#B02', source: "images/B02.jpg" },
+    { code: '#B03', source: "images/B03.jpg" },
+    { code: '#B04', source: "images/B04.jpg" },
+    { code: '#B05', source: "images/B05.jpg" },
+    { code: '#B06', source: "images/B06.jpg" },
+    { code: '#B07', source: "images/B07.jpg" },
+    { code: '#B08', source: "images/B08.png" },
+    { code: '#B09', source: "images/B09.jpg" },
+    { code: '#B10', source: "images/B10.png" },
+    { code: '#B11', source: "images/B11.jpg" },
+    { code: '#B12', source: "images/B12.jpg" },
+    { code: '#B13', source: "images/B13.jpg" },
+    { code: '#B14', source: "images/B14.jpg" },
+    { code: '#B15', source: "images/B15.png" },
+    { code: '#B16', source: "images/B16.jpg" },
+    { code: '#B17', source: "images/B17.jpg" },
+    { code: '#B18', source: "images/B18.jpg" },
+    { code: '#B19', source: "images/B19.jpg" },
+    { code: '#B20', source: "images/B20.jpg" },
+    { code: '#B21', source: "images/B21.png" },
+    { code: '#B22', source: "images/B22.jpg" },
+    { code: '#B23', source: "images/B23.png" },
+    { code: '#B24', source: "images/B24.jpg" },
+    { code: '#B25', source: "images/B25.png" },
+    { code: '#B26', source: "images/B26.png" },
+    { code: '#B27', source: "images/B27.jpg" },
+    { code: '#B28', source: "images/B28.jpg" },
+    { code: '#B29', source: "images/B29.jpg" },
+    { code: '#B30', source: "images/B30.jpg" },
+    { code: '#B31', source: "images/B31.png" },
+    { code: '#B32', source: "images/B32.png" }
   ];
 
 
@@ -81,7 +66,7 @@ for (let i = 0; i < list.length; i++) {
     const myOrderButtons = [];
     myOrderButtons[i] = document.createElement("a");
     myOrderButtons[i].className = "btn btn-warning";
-    myOrderButtons[i].href="#";
+    myOrderButtons[i].href="../../Home page/Order Now.html";
     const myOrderNowTexts = [];
     myOrderNowTexts[i] = document.createTextNode("Order Now"); 
 

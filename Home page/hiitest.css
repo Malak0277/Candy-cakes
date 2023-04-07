@@ -39,6 +39,9 @@ body {
       background-color: #ff379b;
       color: white;
     }
+    .topnav a.active:hover {
+      background-color: #fff;
+    }
     .topnav-right {
       float: right;
     }
@@ -133,7 +136,7 @@ body {
 
           .title {
             font-family: 'Great Vibes', cursive;
-            font-size:  80px;
+            font-size:  70px;
           }
           .top-nav-container{
             padding: 0 20px;
@@ -150,4 +153,36 @@ body {
           }
           .dropdown-menu {
             background-color: #ff379bbd;
+          }
+
+          .carousel .carousel-item {
+            height: 448px;
+            width: 358.4px;
+          }
+          
+          .carousel-item img {
+              position: absolute;
+              object-fit: cover;
+              top: 0;
+              left: 0;
+              min-height: 448px;
+              min-width: 358.4px;
+              }
+
+          .card-body{
+            width: fit-content;
+    
+          }
+
+          body {
+            user-select: none;
+          }
+
+          .home {
+            cursor: pointer;
+          
+          color: white;
+          }
+          .home:hover {
+            background-color: white;
           }
