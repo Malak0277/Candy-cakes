@@ -180,9 +180,9 @@ body {
 
           .home {
             cursor: pointer;
-          }
+          
           color: white;
-
+          }
           .home:hover {
             background-color: white;
           }
