@@ -3,9 +3,10 @@
 <link rel="stylesheet" href="{% static 'bootstrap/bootstrap1.css' %}" type="text/css">
 <link rel="stylesheet" href="{% static 'css/hiitest.css' %}" type="text/css">
 
-<link rel="stylesheet" href="{% static 'bootstrap/js/popper.min.js' %}" type="text/css">
-<link rel="stylesheet" href="{% static 'bootstrap/js/jquery-3.6.4.min.js' %}" type="text/css">
-<link rel="stylesheet" href="{% static 'bootstrap/js/bootstrap.js' %}" type="text/css">
+<script src="{% static 'bootstrap/js/popper.min.js' %}"></script>
+<script src="{% static 'bootstrap/js/jquery-3.6.4.min.js' %}"></script>
+<script src="{% static 'bootstrap/js/bootstrap.js' %}"></script>
+
 
 
 {% block content %}
@@ -19,7 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="Candy Cake.jpg" type="image/x-icon">
 
-    <link rel="stylesheet" href="hiitest.css" type="text/css">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,11 +35,11 @@
     
     <a href="#menu" style="font-size: 130%;">Menu</a>
 
-    <a href="Special Order.HTML" style="font-size: 130%;">Customize Order</a>
+    <a href="form/customize_order" style="font-size: 130%;">Customize Order</a>
 
 
     
-    <a href="Login.html"style="font-size: 130%;">Login</a>
+    <a href="users/login"style="font-size: 130%;">Login</a>
     
     <div class="topnav-right">
     
@@ -76,7 +77,7 @@
             
              <h2 class="title">Candy Cakes-Tanta</h2>
              <p>We're offering custom cakes, Fondant cakes, cupcakes & desserts <br> special decoration with a very good quality <br> <br> </p></center>
-             <a href="Special Order.HTML" style="color: black;"><button class="block">To Customize Your Order</button></a>
+             <a href="form/customize_order" style="color: black;"><button class="block">To Customize Your Order</button></a>
             </div>
             </div>
           </div> 
@@ -119,32 +120,32 @@
 <<<<<<< HEAD
            
        <div class="btn btn-light " style="width: 300px; height: 100px;" >
-        <a href="../Subpages/Birthday subpage/birthday.html"  class="btn btn-light active"style="width:300px; height: 100px;" >
+        <a href="../birthday"  class="btn btn-light active"style="width:300px; height: 100px;" >
           <i class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></i>Birthday
         </a>
        </div>
             
        <div class="btn btn-light " style="width: 300px; height: 100px;" >
-        <a href="../Subpages/minis subpage/minis.html"  class="btn btn-light active"style="width:300px; height: 100px;" >
+        <a href="../minis"  class="btn btn-light active"style="width:300px; height: 100px;" >
           <i class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></i>Minis
         </a>
        </div>
            
        
        <div class="btn btn-light " style="width: 1000px; height: 100px;" >
-        <a href="../Subpages/wedding subpage modified/Wedding&Engagement cakes modified.html"  class="btn btn-light active "style="width:800px; height: 100px;" >
+        <a href="../wedding"  class="btn btn-light active "style="width:800px; height: 100px;" >
 =======
 
            <div class="col">
        <div class="btn btn-light" style="width: 100%; height: 100px" >
-        <a href="../Subpages/Birthday subpage/birthday.html"  class="btn btn-light active" style="width: 100%; height: 100px">
+        <a href="../birthday"  class="btn btn-light active" style="width: 100%; height: 100px">
           <i class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></i>Birthday
         </a>
        </div></div>
 
             <div class="col">
        <div class="btn btn-light" style="width: 100%; height: 100px">
-        <a href="../Subpages/minis subpage/minis.html"  class="btn btn-light active" style="width: 100%; height: 100px">
+        <a href="../minis"  class="btn btn-light active" style="width: 100%; height: 100px">
           <i class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></i>Minis
         </a>
        </div>
@@ -152,7 +153,7 @@
 
        <div class="col">
        <div class="btn btn-light "  style="width: 100%; height: 100px">
-        <a href="../Subpages/wedding subpage modified/Wedding&Engagement cakes modified.html"  class="btn btn-light active " style="width: 100%; height: 100px">
+        <a href="../wedding"  class="btn btn-light active " style="width: 100%; height: 100px">
 >>>>>>> bdc0357c544adb24421bdb029d8ea00f5a28b341
           <i class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></i>Wedding and Engagement
         </a>
@@ -176,14 +177,14 @@
 <<<<<<< HEAD
       
       <div class="btn btn-light " style="width: 300px; height: 100px;" >
-        <a href="../Subpages/Eid special subpage/Eid specials.html"  class="btn btn-light active" style="width: 300px; height: 100px">
+        <a href="../eid"  class="btn btn-light active" style="width: 300px; height: 100px">
           <i class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></i>Eid Treats 
         </a>
        </div>
 
 
        <div class="btn btn-light " style="width: 1000px; height: 100px;" >
-        <a href="../Subpages/Others subpage/others.html"  class="btn btn-light active" style="width: 1000px; height: 100px;" >
+        <a href="../others"  class="btn btn-light active" style="width: 1000px; height: 100px;" >
           <i class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></i>Other Cakes  
 
 
@@ -197,14 +198,14 @@
 
       <div class="col">
       <div class="btn btn-light "  style="width: 100%; height: 100px">
-        <a href="../Subpages/Eid special subpage/Eid specials.html"  class="btn btn-light active" style="width: 100%; height: 100px" >
+        <a href="../eid"  class="btn btn-light active" style="width: 100%; height: 100px" >
           <i class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></i>Eid Treats 
         </a>
        </div>
       </div>
 <div class="col">
        <div class="btn btn-light "  style="width: 100%; height: 100px">
-        <a href="../Subpages/Others subpage/others.html"  class="btn btn-light active " style="width: 100%; height: 100px" >
+        <a href="../others"  class="btn btn-light active " style="width: 100%; height: 100px" >
           <i class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></i>Special occasions
 >>>>>>> bdc0357c544adb24421bdb029d8ea00f5a28b341
         </a>
@@ -226,26 +227,9 @@
  
 
   
-  <script src= "js/popper.min.js.js"></script>
-  <script src= "js/jquery-3.6.4.min.js"></script>
- 
-  <script>
-  function openNav() {
-    document.getElementById("Sidebar").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-  }
   
-  function closeNav() {
-    document.getElementById("Sidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-  }
-</script>
-<script src="main.js"></script>
-<script src="../../frameworks/bootstrap-4.0.0-dist (1)/js/popper.min.js"></script>
-<script src="../../frameworks/bootstrap-4.0.0-dist (1)/js/jquery-3.6.4.min.js"></script>
-<script src="../../frameworks/bootstrap-4.0.0-dist (1)/js/bootstrap.js"></script>
 </body>
 </html> 
-</script>
+
 
 {% endblock content %}
