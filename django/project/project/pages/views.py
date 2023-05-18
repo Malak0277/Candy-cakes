@@ -20,3 +20,9 @@ def minis(request):
 def others(request):
     return render(request,'pages/others.html')
 
+def custom(request):
+    return render(request,'forms/custom.html')
+
+def orderNow(request):
+    return render(request,'forms/orderNow.html')
+
