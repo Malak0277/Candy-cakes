@@ -2,7 +2,9 @@
 
 
 {% block content %}
-<form id="form">
+<form id="form" method="GET">
+  {% csrf_token %}
+
     <div class="container-fluid gradient-custom">
       <div style="height: 50px;"></div>
 

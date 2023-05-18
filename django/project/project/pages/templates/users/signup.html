@@ -18,8 +18,8 @@
            
            
            
-            <form id="form">
-              
+            <form id="form" method="POST">
+              {% csrf_token %}
               <div class="row" style="padding-left: 18vmax;">
                   <div class="form-outline" >
                     <input name="firstName" placeholder="First Name"type="text" id="firstName" class="form-control form-control-lg my-fname" style="text-align: center;"/>
