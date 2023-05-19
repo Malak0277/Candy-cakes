@@ -1,7 +1,11 @@
 from ctypes import addressof
 from django.shortcuts import render
+<<<<<<< HEAD
 from .models import OrderForm
 
+=======
+from .models import *
+>>>>>>> 196b9d31828c44409e78fecd612056085051d8f5
 # Create your views here.
 
 def index(request):
