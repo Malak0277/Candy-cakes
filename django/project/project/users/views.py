@@ -1,37 +1,38 @@
-from django.contrib.auth import authenticate
+from django.contrib.auth.models import User
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
-from .models import Signup
+from .models import Signup, Login
 
-from django.contrib.auth.models import User
 
 # Create your views here.
 
 
-
+"""
 def login(request):
     if request.method == 'POST':
         email = request.POST['email']
         password = request.POST['pass']
-        user = authenticate(request, email=email, password=password)
-        if user is not None:
+        data = Login(email=email, password=password)
+        if data is not None:
             for row in Signup.objects.all():
                 if row.email == email:
                     if row.password == password:
+                        data.save()
                         return redirect('../../')
-            else:
-                return render(request, 'login.html', {'error_message': 'Invalid login'})
+                else:
+                    return render(request, 'users/login.html', {'error_message': 'Invalid login'})
         else:
-            return render(request, 'login.html', {'error_message': 'Invalid login'})
+            return render(request, 'users/login.html', {'error_message': 'Invalid login'})
     else:
         return render(request, 'users/login.html')
 
-"""def login(request):
+"""
+def login(request):
     if request.method == "POST":
         email = request.POST.get('email')
         password = request.POST.get('pass')
         if email and password:
-            data = Login(email=email, password=password)
+            data = User.objects.create_user(email, email, password)
             data.save()
             return redirect('../../')
         else:
@@ -39,17 +40,45 @@ def login(request):
     else:
         pass
     return render(request, 'users/login.html')
-"""
+
+
 
 def signup(request):
     if request.method == 'POST':
-        firstname = request.POST.get('firstname')
-        lastname = request.POST.get('lastname')
+        #firstname = request.POST.get('firstname')
+        #lastname = request.POST.get('lastname')
+        username = request.POST.get('username')
         email = request.POST.get('email')
         password = request.POST.get('password')
         password2 = request.POST.get('password2')
         #if firstname and lastname and email and password and password2:
-        signup = Signup(firstname=firstname, lastname=lastname, email=email, password=password)#, password2=password2)
-        signup.save()
-        return redirect('../../')
+        #for row in Signup.objects.all():
+            #if row.email != email:
+        if password == password2:
+            #signup = Signup(username=username, email=email, password=password)#, password2=password2)
+            #signup.save()
+            user = User.objects.create_user(username=username, email=email, password=password)
+            user.save()
+            return redirect('../../')
+        else:
+            return HttpResponseRedirect(request.path)
     return render(request, 'users/signup.html')
+
+
+
+"""
+def signup(request):
+ if request.method == 'POST':
+     username = request.POST.get('username')
+     email = request.POST.get('email')
+     password = request.POST.get('password')
+     password2 = request.POST.get('password2')
+     if password == password2:
+         user = User.objects.create_user(username=username, email=email, password=password)
+         user.save()
+         return redirect('../../')
+ else:
+    return HttpResponseRedirect(request.path)
+ return render(request, 'users/signup.html')
+
+"""

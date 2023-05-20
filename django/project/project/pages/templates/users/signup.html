@@ -17,7 +17,17 @@
            
            
            
-           
+            <form id="form" method="POST">
+              {% csrf_token %}
+              <div class="row" style="padding-left: 18vmax;">
+                  <div class="form-outline" >
+                    <input name="username" placeholder="User Name"type="text" id="username" class="form-control form-control-lg my-fname" style="text-align: center;"/>
+                    <div class="error" style="color: #ff3860; font-size: 9px; height: 13px;"></div>
+                  </div>
+
+                </div>
+<br>
+                <!--
             <form id="form" method="POST">
               {% csrf_token %}
               <div class="row" style="padding-left: 18vmax;">
@@ -28,6 +38,7 @@
 
                 </div>
 <br>
+
                 <div class="row" style="padding-left: 18vmax;">
 
                   <div class="form-outline">
@@ -35,7 +46,7 @@
                     <div class="error" style="color: #ff3860; font-size: 9px; height: 13px;"></div>
                   </div>
                 </div>
-                <br>
+                <br>-->
 
               <div class="row" style="padding-left: 18vmax;">
 
