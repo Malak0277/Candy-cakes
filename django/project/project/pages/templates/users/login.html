@@ -33,7 +33,16 @@
                   </div>
       
                 <p class="small mb-5 pb-lg-2"><a class="text-black-50" style="text-align:center" href="#!">Forgot password?</a></p>
-                
+
+                {% if messages %}
+                    <ul class="messages">
+                        {% for message in messages %}
+                            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+
+
                 <button class="block2 rounded" style="border: none;" type="submit">Login</button>
       
                
