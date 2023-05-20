@@ -34,13 +34,17 @@ def custom(request):
         pass
     return render(request,'forms/custom.html')
 
-def orderNow(request):
-    address= request.POST.get('address')
-    Date= request.POST.get('Date')
-    Number_of_people= request.POST.get('number_of_people')
-    comments= request.POST.get('comments')
-    Email =request.POST.get('Email') 
-    Data = OrderForm(Email=Email, address=address, comments=comments, Number_of_people=Number_of_people, Date=Date)
-    Data.save()
-    return render(request,'forms/orderNow.html')
 
+
+def orderNow(request):
+    Address= request.POST.get('address')
+    date= request.POST.get('Date')
+    number_of_people= request.POST.get('number_of_people')
+    Comment= request.POST.get('comments')
+    #Email =request.POST.get('Email')
+    if Address:
+        Data = OrderForm(Address=Address, Comment=Comment, number_of_people=number_of_people, date=date)
+        Data.save()
+    else:
+        pass 
+    return render(request,'forms/orderNow.html')

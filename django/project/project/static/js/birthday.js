@@ -5,8 +5,8 @@ myRow.className = "row";
 
 
 const list = [
-    { code: '#B01', source: "images/B01.jpg" },
-    { code: '#B02', source: "images/B02.jpg" },
+    { code: '#B01', source: "../../../static/images/birthday/images/B01.JPG" },
+   /* { code: '#B02', source: "images/B02.jpg" },
     { code: '#B03', source: "images/B03.jpg" },
     { code: '#B04', source: "images/B04.jpg" },
     { code: '#B05', source: "images/B05.jpg" },
@@ -36,7 +36,7 @@ const list = [
     { code: '#B29', source: "images/B29.jpg" },
     { code: '#B30', source: "images/B30.jpg" },
     { code: '#B31', source: "images/B31.png" },
-    { code: '#B32', source: "images/B32.png" }
+    { code: '#B32', source: "images/B32.png" }*/
   ];
 
 
@@ -66,7 +66,7 @@ for (let i = 0; i < list.length; i++) {
     const myOrderButtons = [];
     myOrderButtons[i] = document.createElement("a");
     myOrderButtons[i].className = "btn btn-warning";
-    myOrderButtons[i].href="form/order_now/";
+    myOrderButtons[i].href="../../Home page/Order Now.html";
     const myOrderNowTexts = [];
     myOrderNowTexts[i] = document.createTextNode("Order Now"); 
 

@@ -20,7 +20,6 @@ let pass2 = document.querySelector(".my-pass2");
 
 
 
-
 form.addEventListener('submit', e=> {
     e.preventDefault();
     console.log("OK");

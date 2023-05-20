@@ -4,37 +4,37 @@ myRow.className = "row";
 
 
 const list = [
-    { code: '#W01', source: "images/W01.jpeg" },
-    { code: '#W02', source: "images/W02.jpeg" },
-    { code: '#W03', source: "images/W03.jpeg" },
-    { code: '#W04', source: "images/W04.jpeg" },
-    { code: '#W05', source: "images/W05.jpeg" },
-    { code: '#W06', source: "images/W06.jpeg" },
-    { code: '#W07', source: "images/W07.jpeg" },
-    { code: '#W08', source: "images/W08.jpeg" },
-    { code: '#W09', source: "images/W09.jpeg" },
-    { code: '#W10', source: "images/W10.jpeg" },
-    { code: '#W11', source: "images/W11.jpeg" },
-    { code: '#W12', source: "images/W12.jpeg" },
-    { code: '#W13', source: "images/W13.jpeg" },
-    { code: '#W14', source: "images/W14.jpeg" },
-    { code: '#W15', source: "images/W15.jpeg" },
-    { code: '#W16', source: "images/W16.jpeg" },
-    { code: '#W17', source: "images/W17.jpeg" },
-    { code: '#W18', source: "images/W18.jpeg" },
-    { code: '#W19', source: "images/W19.jpeg" },
-    { code: '#W20', source: "images/W20.jpeg" },
-    { code: '#W21', source: "images/W21.jpeg" },
-    { code: '#W22', source: "images/W22.jpeg" },
-    { code: '#W23', source: "images/W23.jpeg" },
-    { code: '#W24', source: "images/W24.jpeg" },
-    { code: '#W25', source: "images/W25.jpeg" },
-    { code: '#W26', source: "images/W26.jpeg" },
-    { code: '#W27', source: "images/W27.jpeg" },
-    { code: '#W28', source: "images/W28.jpeg" },
-    { code: '#W29', source: "images/W29.jpeg" },
-    { code: '#W30', source: "images/W30.jpeg" },
-    { code: '#W31', source: "images/W31.jpeg" }
+    { code: '#W01', source: "../../../static/images/wedding/images/W01.jpeg" },
+    { code: '#W02', source: "../../../static/images/wedding/images/W02.jpeg" },
+    { code: '#W03', source: "../../../static/images/wedding/images/W03.jpeg" },
+    { code: '#W04', source: "../../../static/images/wedding/images/W04.jpeg" },
+    { code: '#W05', source: "../../../static/images/wedding/images/W05.jpeg" },
+    { code: '#W06', source: "../../../static/images/wedding/images/W06.jpeg" },
+    { code: '#W07', source: "../../../static/images/wedding/images/W07.jpeg" },
+    { code: '#W08', source: "../../../static/images/wedding/images/W08.jpeg" },
+    { code: '#W09', source: "../../../static/images/wedding/images/W09.jpeg" },
+    { code: '#W10', source: "../../../static/images/wedding/images/W10.jpeg" },
+    { code: '#W11', source: "../../../static/images/wedding/images/W11.jpeg" },
+    { code: '#W12', source: "../../../static/images/wedding/images/W12.jpeg" },
+    { code: '#W13', source: "../../../static/images/wedding/images/W13.jpeg" },
+    { code: '#W14', source: "../../../static/images/wedding/images/W14.jpeg" },
+    { code: '#W15', source: "../../../static/images/wedding/images/W15.jpeg" },
+    { code: '#W16', source: "../../../static/images/wedding/images/W16.jpeg" },
+    { code: '#W17', source: "../../../static/images/wedding/images/W17.jpeg" },
+    { code: '#W18', source: "../../../static/images/wedding/images/W18.jpeg" },
+    { code: '#W19', source: "../../../static/images/wedding/images/W19.jpeg" },
+    { code: '#W20', source: "../../../static/images/wedding/images/W20.jpeg" },
+    { code: '#W21', source: "../../../static/images/wedding/images/W21.jpeg" },
+    { code: '#W22', source: "../../../static/images/wedding/images/W22.jpeg" },
+    { code: '#W23', source: "../../../static/images/wedding/images/W23.jpeg" },
+    { code: '#W24', source: "../../../static/images/wedding/images/W24.jpeg" },
+    { code: '#W25', source: "../../../static/images/wedding/images/W25.jpeg" },
+    { code: '#W26', source: "../../../static/images/wedding/images/W26.jpeg" },
+    { code: '#W27', source: "../../../static/images/wedding/images/W27.jpeg" },
+    { code: '#W28', source: "../../../static/images/wedding/images/W28.jpeg" },
+    { code: '#W29', source: "../../../static/images/wedding/images/W29.jpeg" },
+    { code: '#W30', source: "../../../static/images/wedding/images/W30.jpeg" },
+    { code: '#W31', source: "../../../static/images/wedding/images/W31.jpeg" }
   ];
 
 
@@ -64,7 +64,7 @@ for (let i = 0; i < list.length; i++) {
     const myOrderButtons = [];
     myOrderButtons[i] = document.createElement("a");
     myOrderButtons[i].className = "btn btn-warning";
-    myOrderButtons[i].href="../../Home page/Order Now.html";
+    myOrderButtons[i].href="../form/order_now/";
     const myOrderNowTexts = [];
     myOrderNowTexts[i] = document.createTextNode("Order Now"); 
 

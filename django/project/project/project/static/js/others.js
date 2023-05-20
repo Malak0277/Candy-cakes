@@ -3,11 +3,11 @@ let myRow = document.createElement("div");
 myRow.className = "row";
 
 const list = [
-    { code: '#O01', source: "others_images/O01.jpg" },
-    { code: '#O02', source: "others_images/O02.jpg" },
-    { code: '#O03', source: "others_images/O03.jpg" },
-    { code: '#O04', source: "others_images/O04.jpg" },
-    { code: '#O05', source: "others_images/O05.jpg" }
+    { code: '#O01', source: "../../../static/images/others/others_images/O01.jpg" },
+    { code: '#O02', source: "../../../static/images/others/others_images/O02.jpg" },
+    { code: '#O03', source: "../../../static/images/others/others_images/O03.jpg" },
+    { code: '#O04', source: "../../../static/images/others/others_images/O04.jpg" },
+    { code: '#O05', source: "../../../static/images/others/others_images/O05.jpg" }
   ];
 
 
@@ -37,7 +37,7 @@ for (let i = 0; i < list.length; i++) {
     const myOrderButtons = [];
     myOrderButtons[i] = document.createElement("a");
     myOrderButtons[i].className = "btn btn-warning";
-    myOrderButtons[i].href="../../Home page/Order Now.html";
+    myOrderButtons[i].href="../form/order_now/";
     const myOrderNowTexts = [];
     myOrderNowTexts[i] = document.createTextNode("Order Now"); 
 

@@ -1,4 +1,5 @@
 {% extends 'forms/formTemp.html' %}
+{% load static %}
 
 
 {% block content %}
@@ -90,6 +91,7 @@
           </div>
   </form>
      
+  <script src="{% static 'js/validation.js' %}"></script>
 
 
 {% endblock content %}

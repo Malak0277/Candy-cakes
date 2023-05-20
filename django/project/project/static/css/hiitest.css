@@ -43,8 +43,10 @@ body {
       background-color: #fff;
     }
     .topnav-right {
+      
       float: right;
     }
+
     body, html {
       height: 100%;
       margin: 0;
@@ -60,7 +62,7 @@ body {
       width: 100%;
       border: none;
       background-color: #e8deff;
-      color: Black;
+      color: rgb(0, 0, 0);
       padding: 14px 28px;
       font-size: 16px;
       cursor: pointer;
@@ -186,3 +188,34 @@ body {
           .home:hover {
             background-color: white;
           }
+          .d-flex {
+            display: flex;
+            justify-content: space-between; 
+        }
+        
+        .card-container {
+          display: flex;
+          flex-wrap: wrap;
+          height: 200px;
+          background-color:#ff96cbbd;
+        }
+      
+        .card {
+            flex: 1; 
+            margin-right: 10px;
+            min-width: 120px; 
+            overflow-wrap: break-word;
+         
+       
+            background-color:#ff96cbbd  !important;
+           
+        }
+      
+        
+        .card a {
+          color: #ff96cbbd !important;
+        }
+        .card:last-child {
+            margin-right: 0;
+        }
+        

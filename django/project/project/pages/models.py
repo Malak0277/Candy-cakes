@@ -1,5 +1,4 @@
 from django.db import models
-from django import forms
 
 #name
 #image
@@ -45,12 +44,11 @@ OCCASION_CHOICES = [
 #Order form 
 
 class OrderForm(models.Model):
-    Email = models.EmailField(max_length=150)
+    #Email = models.EmailField(max_length=150)
     Address = models.CharField(max_length=300)
     Comment = models.TextField()
     number_of_people = models.CharField(max_length=1, choices=SIZE_CHOICES)
     date = models.DateField()
-    Email = models.EmailField(max_length=150)
 
 #costmized form
 class CustomizedForm(models.Model):
@@ -61,4 +59,4 @@ class CustomizedForm(models.Model):
     number_of_people = models.CharField(max_length=1, choices=SIZE_CHOICES)
 
 
-
+    
