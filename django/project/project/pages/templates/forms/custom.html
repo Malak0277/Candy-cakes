@@ -2,7 +2,7 @@
 
 
 {% block content %}
-  <form id="form" method="GET">
+  <form id="form" method="POST">
     {% csrf_token %}
   
         <div class="container-fluid gradient-custom">
@@ -35,7 +35,7 @@
               <br>
 
 
-              <div class="form-outline form-white mb-4" ">
+              <div class="form-outline form-white mb-4">
                 <select class="form-select my-occ" style="width: 100%;" aria-label="Default select example" name="occasion">
                   <option value="occ"selected>Occasion</option>
                   <option value="1">Wedding</option>
