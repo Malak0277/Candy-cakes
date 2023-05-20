@@ -1,8 +1,8 @@
+from django.contrib.auth import authenticate
 from django.contrib.auth.models import User
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
-from .models import Signup, Login
-
+from django.contrib import messages
 
 # Create your views here.
 
@@ -46,8 +46,38 @@ def login(request):
 
 def signup(request):
     if request.method == 'POST':
-        #firstname = request.POST.get('firstname')
-        #lastname = request.POST.get('lastname')
+        username = request.POST.get('username')
+        email = request.POST.get('email')
+        password = request.POST.get('password')
+        password2 = request.POST.get('password2')
+
+        if username or email or password or password2:
+            pass
+        else:
+            messages.error(request, 'Empty Fields')
+            return render(request, 'users/signup.html')
+
+        if User.objects.filter(email=email).exists():
+            messages.error(request, 'Email address is already in use')
+            return render(request, 'users/signup.html')
+
+        if password != password2:
+            messages.error(request, 'Passwords do not match')           ##################3
+            return render(request, 'users/signup.html')
+
+
+        user = User.objects.create_user(username=username, email=email, password=password)
+        user = authenticate(username=username, password=password)
+        #login(request, user)
+        return redirect('../../')
+
+    return render(request, 'users/signup.html')
+
+
+
+"""
+def signup(request):
+    if request.method == 'POST':    
         username = request.POST.get('username')
         email = request.POST.get('email')
         password = request.POST.get('password')
@@ -64,7 +94,7 @@ def signup(request):
         else:
             return HttpResponseRedirect(request.path)
     return render(request, 'users/signup.html')
-
+"""
 
 
 """
