@@ -102,6 +102,7 @@ const validateInputs = () => {
         }
     }
 
+/*
     if(lastName){
         const firstNameValue = lastName.value.trim();
 
@@ -113,7 +114,7 @@ const validateInputs = () => {
             setSuccess(lastName);
         }
     }
-
+*/
     if(address){
         const addressValue = address.value.trim();
     
