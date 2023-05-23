@@ -35,7 +35,6 @@ def custom(request):
     return render(request,'forms/custom.html')
 
 
-
 def orderNow(request):
     Address= request.POST.get('address')
     date= request.POST.get('Date')
